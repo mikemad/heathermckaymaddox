@@ -475,7 +475,7 @@ footer {
   line-height: 1.5;
   color: var(--deep-water);
   max-width: var(--narrow);
-  margin: .6rem auto 0;
+  margin: 1.2rem auto 0;
 }
 .refuge-grid {
   display: grid;
