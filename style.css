@@ -1,15 +1,15 @@
 /* ===== VARIABLES ===== */
 :root {
   --white:      #FFFFFF;
-  --mist:       #F2F5F7;
-  --shore:      #E4EAF0;
-  --slate-light:#C9D6DE;
-  --slate:      #7A9BAE;
-  --deep-water: #2E4D5E;
-  --midnight:   #1A2F3A;
-  --ink:        #1C2B34;
-  --gold:       #9FB8A8;
-  --gold-warm:  #B8C9BE;
+  --mist:       #F3F5EE;
+  --shore:      #E5EBDC;
+  --slate-light:#C8D5BD;
+  --slate:      #66825E;
+  --deep-water: #4D6B4F;
+  --midnight:   #3F5B45;
+  --ink:        #2B3A2D;
+  --gold:       #A7BE92;
+  --gold-warm:  #D2DFBC;
 
   --serif:  'Cormorant Garamond', Georgia, serif;
   --sans:   'Jost', system-ui, sans-serif;
@@ -241,9 +241,9 @@ strong { font-weight: 500; color: var(--deep-water); }
   inset: 0;
   background: linear-gradient(
     160deg,
-    rgba(26,47,58,.72) 0%,
-    rgba(46,77,94,.55) 50%,
-    rgba(26,47,58,.65) 100%
+    rgba(52,78,56,.55) 0%,
+    rgba(77,107,79,.38) 50%,
+    rgba(52,78,56,.5) 100%
   );
 }
 .hero-content {
@@ -280,7 +280,7 @@ strong { font-weight: 500; color: var(--deep-water); }
 .water-veil {
   position: absolute;
   inset: 0;
-  background: rgba(26,47,58,.58);
+  background: rgba(52,78,56,.45);
 }
 .water-quote {
   position: relative;
@@ -333,7 +333,7 @@ strong { font-weight: 500; color: var(--deep-water); }
   transition: color .3s;
 }
 .card:hover .card-num { color: var(--slate-light); }
-.card p { font-size: .97rem; color: #4A5B65; }
+.card p { font-size: .97rem; color: #526150; }
 
 /* ===== LISTENING ===== */
 .listen-list {
@@ -381,7 +381,7 @@ strong { font-weight: 500; color: var(--deep-water); }
   width: 100%;
   max-width: 420px;
   border-radius: 3px;
-  box-shadow: 0 20px 50px rgba(26,47,58,.18);
+  box-shadow: 0 20px 50px rgba(52,78,56,.18);
   display: block;
   margin: 0 auto;
 }
@@ -433,7 +433,7 @@ strong { font-weight: 500; color: var(--deep-water); }
 
 /* ===== FOOTER ===== */
 footer {
-  background: var(--ink);
+  background: #35503B;
   padding: 3rem 2rem;
   text-align: center;
 }
@@ -448,10 +448,10 @@ footer {
   font-size: .72rem;
   letter-spacing: .22em;
   text-transform: uppercase;
-  color: var(--slate);
+  color: var(--gold-warm);
   margin-bottom: 1.5rem;
 }
-.footer-copy { font-size: .8rem; color: rgba(255,255,255,.3); }
+.footer-copy { font-size: .8rem; color: rgba(255,255,255,.5); }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
@@ -488,7 +488,7 @@ footer {
   width: 100%;
   max-width: 420px;
   border-radius: 6px;
-  box-shadow: 0 20px 50px rgba(26,47,58,.18);
+  box-shadow: 0 20px 50px rgba(52,78,56,.18);
   display: block;
   margin: 0 auto;
 }
