@@ -467,3 +467,20 @@ footer {
   .water-band { background-attachment: scroll; height: 260px; }
   .water-band-tall { height: 360px; }
 }
+
+/* Announcement */
+.announce-card {
+  border: 1px solid var(--slate-light);
+  border-top: 3px solid var(--gold);
+  background: var(--white);
+  padding: 2.4rem 2rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.announce-text {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--deep-water);
+  margin-top: .6rem;
+}
