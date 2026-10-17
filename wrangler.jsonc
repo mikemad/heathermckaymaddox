@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "heathermckaymaddox",
+  "account_id": "09e18739614b6f81134667591d2c76a8",
+  "compatibility_date": "2026-10-15",
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    { "pattern": "heathermckaymaddox.com", "custom_domain": true },
+    { "pattern": "www.heathermckaymaddox.com", "custom_domain": true }
+  ],
+  "workers_dev": true,
+  "assets": {
+    "directory": "."
+  }
+}
